@@ -4,9 +4,7 @@
 #ifndef SAFE_STL
     #include<vector>
     using namespace std;
-#else
-    #include "vector.h"
-    #include "StarConv.h"
+
 #endif
 
 template <class Object>
@@ -53,7 +51,5 @@ class matrix
 
 };
 
-#ifdef SAFE_STL
-    #include "endcov.h";
-#endif
+
 #endif
